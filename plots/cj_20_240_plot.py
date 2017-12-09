@@ -1,7 +1,7 @@
 import pickle
 import matplotlib.pylab as plt
 
-cj_20_240 = pickle.load( open( "cj_20_240.p", "rb" ) )
+cj_20_240 = pickle.load(open("cj_20_240.p", "rb"))
 
 lists = sorted(cj_20_240.items())
 

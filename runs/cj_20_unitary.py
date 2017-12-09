@@ -21,7 +21,7 @@ YIELD = 400
 
 CRUISE_MISSILES_SENT = 120
 
-MONTE_CARLO_ITERATIONS = 400
+MONTE_CARLO_ITERATIONS = 600
 
 # ! will increase lethal radius, as any part of aircraft within 
 # warhead's lethal radius will destroy aircraft totally

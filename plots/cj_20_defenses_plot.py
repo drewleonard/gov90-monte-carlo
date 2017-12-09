@@ -25,7 +25,7 @@ plt.plot(x, y, "-m", label="240 CJ-20s")
 plt.legend(loc='upper right')
 
 fig.suptitle('USAF Defenses Against CJ-20 ALCMs', fontsize=14)
-plt.xlabel('Effectiveness of USAF Defenses', fontsize=14)
+plt.xlabel('Percent of ALCMs Intercepted', fontsize=14)
 plt.ylabel('Aircraft Destroyed', fontsize=14)
 plt.grid()
 plt.show()
