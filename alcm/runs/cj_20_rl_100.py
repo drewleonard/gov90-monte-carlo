@@ -112,11 +112,11 @@ cj_20_bomblets_lethal_area = area_of_circle_m(
 # VARIABLE CJ-20 ALCM DATA
 
 cj_20_cep_m = 12.5 # between 5 m and 20 m estimates
-cj_20_sent = 30 # from 20 H-6K bomber aircraft
+cj_20_sent = 120 # from 20 H-6K bomber aircraft
 
 # cj_20_dist_radius_m_var = [150, 200, 300]
 
-cj_20_dist_radius_m = 150  # m (distributed circularly)
+cj_20_dist_radius_m = 100  # m (distributed circularly)
 cj_20_dist_area_n = area_of_circle_m(cj_20_dist_radius_m)
 
 # min() PREVENTS SSPK FROM EXCEEDING ONE
@@ -238,17 +238,5 @@ for cj_20_leaker_n in range(0, cj_20_sent):
 
     cj_20_leaker_iterations[cj_20_leaker_n] = cj_20_expected_value
 
-
-defenses_dict = {}
-for key, value in cj_20_leaker_iterations.items():
-
-    missiles_n = key
-    aircraft_killed = value
-
-    intercepted_n = cj_20_sent - missiles_n;
-    intcepted_prop = intercepted_n / cj_20_sent
-
-    defenses_dict[intcepted_prop] = aircraft_killed
-
-# print(defenses_dict)
-pickle.dump(defenses_dict, open("cj_20_30_defenses.p", "wb"))
+print(cj_20_leaker_iterations)
+# pickle.dump(cj_20_leaker_iterations, open("cj_20_rl_100.p", "wb"))

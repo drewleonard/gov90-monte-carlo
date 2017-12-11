@@ -111,8 +111,8 @@ cj_20_bomblets_lethal_area = area_of_circle_m(
 
 # VARIABLE CJ-20 ALCM DATA
 
-cj_20_cep_m = 12.5 # between 5 m and 20 m estimates
-cj_20_sent = 120 # from 20 H-6K bomber aircraft
+cj_20_cep_m = 12.5  # between 5 m and 20 m estimates
+cj_20_sent = 120  # from 20 H-6K bomber aircraft
 
 # cj_20_dist_radius_m_var = [150, 200, 300]
 
@@ -125,7 +125,7 @@ cj_20_sspk = min((cj_20_bomblets_lethal_area / cj_20_dist_area_n), 1)
 
 # MONTE CARLO SIMULATION
 
-monte_carlo_iterations = 200 # temporarily low value to spare my computer
+monte_carlo_iterations = 200  # temporarily low value to spare my computer
 
 sigma = cj_20_cep_m / 0.675  # getting normal distribution from CEP
 mu = 0

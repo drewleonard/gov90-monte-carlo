@@ -125,16 +125,17 @@ cj_20_sspk = min((cj_20_bomblets_lethal_area / cj_20_dist_area_n), 1)
 
 # MONTE CARLO SIMULATION
 
-monte_carlo_iterations = 200 # temporarily low value to spare my computer
+monte_carlo_iterations = 1000 # temporarily low value to spare my computer
 
 sigma = cj_20_cep_m / 0.675  # getting normal distribution from CEP
 mu = 0
 
 cj_20_leaker_iterations = {}
+cj_20_sspk_dict = {}
 
 # FOR EACH NUMBER OF LEAKERS POSSIBLE ...
 
-for cj_20_leaker_n in range(0, cj_20_sent):
+for cj_20_leaker_n in range(240, cj_20_sent + 1):
 
     print(cj_20_leaker_n)
 
@@ -143,6 +144,8 @@ for cj_20_leaker_n in range(0, cj_20_sent):
     # RUN SIMULATION OF CJ-20 ALCMS TARGETING AIRCRAFT
 
     for monte_carlo_iteration in range(0, monte_carlo_iterations):
+
+        print(monte_carlo_iteration)
 
         shuffle(cj_20_targets)  # ! leaked missiles have "random" targets
 
@@ -232,11 +235,13 @@ for cj_20_leaker_n in range(0, cj_20_sent):
             cj_20_target_pk = 1 - ((1 - cj_20_sspk)**hits_n)
             cj_20_kills += cj_20_target_pk
 
+            cj_20_sspk_dict[hits_n] = cj_20_target_pk
+
         cj_20_success.append(cj_20_kills)
 
     cj_20_expected_value = sum(cj_20_success) / float(len(cj_20_success))
 
     cj_20_leaker_iterations[cj_20_leaker_n] = cj_20_expected_value
 
-print(cj_20_leaker_iterations)
-pickle.dump(cj_20_leaker_iterations, open("cj_20_240.p", "wb"))
+print(cj_20_sspk_dict)
+# pickle.dump(cj_20_sspk_dict, open("cj_20_sspk.p", "wb"))

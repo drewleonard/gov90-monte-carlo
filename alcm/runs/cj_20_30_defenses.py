@@ -112,7 +112,7 @@ cj_20_bomblets_lethal_area = area_of_circle_m(
 # VARIABLE CJ-20 ALCM DATA
 
 cj_20_cep_m = 12.5 # between 5 m and 20 m estimates
-cj_20_sent = 240 # from 20 H-6K bomber aircraft
+cj_20_sent = 30 # from 20 H-6K bomber aircraft
 
 # cj_20_dist_radius_m_var = [150, 200, 300]
 
@@ -250,5 +250,5 @@ for key, value in cj_20_leaker_iterations.items():
 
     defenses_dict[intcepted_prop] = aircraft_killed
 
-# print(defenses_dict)
-pickle.dump(defenses_dict, open("cj_20_240_defenses.p", "wb"))
+print(defenses_dict)
+# pickle.dump(defenses_dict, open("cj_20_30_defenses.p", "wb"))
