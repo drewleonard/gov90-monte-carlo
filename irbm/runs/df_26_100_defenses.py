@@ -16,7 +16,7 @@ import pickle
 #
 # SUBMUNITION DISTRIBUTION: CIRCULAR
 # FOOTPRINT DIAMETER: 900 FT
-# SSPK = 0.90 (ASSUMED FROM HEGINBOTHAM)
+# SSPK = 0.75 (ASSUMED FROM HEGINBOTHAM)
 #
 # MISSILES SENT: 50, TO 205 PARKING SPOTS
 #
@@ -107,7 +107,7 @@ df_26_dist_radius_m = ft_to_m(df_26_dist_radius_ft)
 
 df_26_sspk = 0.90
 df_26_cep_m = 50
-df_26_sent = 50
+df_26_sent = 100
 
 # df_26_sspk = [0.70, 0.90]  # assumption from Heginbotham
 # df_26_cep_m = [30, 300]  # m
@@ -214,6 +214,8 @@ for df_26_leaker_n in range(0, df_26_sent):
 
         df_26_kills = 0
 
+
+ 
         # CALCULATIONS FOR TARGETS HIT BY CJ-20
         for key, value in df_26_targets_hits.items():
 
@@ -227,4 +229,16 @@ for df_26_leaker_n in range(0, df_26_sent):
 
     df_26_leaker_iterations[df_26_leaker_n] = df_26_expected_value
 
-pickle.dump(df_26_leaker_iterations, open("df_26_baseline.p", "wb"))
+defenses_dict = {}
+for key, value in df_26_leaker_iterations.items():
+
+    missiles_n = key
+    aircraft_killed = value
+
+    intercepted_n = df_26_sent - missiles_n;
+    intcepted_prop = intercepted_n / df_26_sent
+
+    defenses_dict[intcepted_prop] = aircraft_killed
+
+print(defenses_dict)
+pickle.dump(defenses_dict, open("df_26_100_defenses.p", "wb"))

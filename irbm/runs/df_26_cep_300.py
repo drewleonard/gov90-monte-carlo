@@ -106,7 +106,7 @@ df_26_dist_radius_m = ft_to_m(df_26_dist_radius_ft)
 # VARIABLE DF-26 IRBM DATA
 
 df_26_sspk = 0.90
-df_26_cep_m = 50
+df_26_cep_m = 300
 df_26_sent = 50
 
 # df_26_sspk = [0.70, 0.90]  # assumption from Heginbotham
@@ -227,4 +227,4 @@ for df_26_leaker_n in range(0, df_26_sent):
 
     df_26_leaker_iterations[df_26_leaker_n] = df_26_expected_value
 
-pickle.dump(df_26_leaker_iterations, open("df_26_baseline.p", "wb"))
+pickle.dump(df_26_leaker_iterations, open("df_26_cep_300.p", "wb"))
