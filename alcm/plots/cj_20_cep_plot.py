@@ -22,7 +22,7 @@ plt.plot(x, y, '-b', label='CJ-20, 20.0 m CEP')
 plt.plot(s, t, '-g', label='CJ-20, 50.0 m CEP')
 
 plt.legend(loc='upper left')
-fig.suptitle('CJ-20s Attacking Andersen AFB, Varying CEP Values', fontsize=14)
+fig.suptitle('CJ-20s Striking Andersen AFB, Varying CEP Values', fontsize=14)
 plt.xlabel('Leaked CJ-20 ALCMs', fontsize=14)
 plt.ylabel('Aircraft Destroyed', fontsize=14)
 plt.grid()

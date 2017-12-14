@@ -12,7 +12,7 @@ y = [x[1] for x in df_26_hit_locations]
 fig = plt.figure()
 plt.hexbin(x, y, gridsize=(50,25),cmap=plt.cm.BuGn_r)
 plt.colorbar()
-fig.suptitle('10,000 Iterations of 50 DF-26 IRBMs', fontsize=14)
+fig.suptitle('10,000 Iterations of 50 DF-26 IRBMs Striking Andersen AFB', fontsize=13)
 plt.xlabel('Latitude', fontsize=14)
 plt.ylabel('Longitude', fontsize=14)
 plt.show()
