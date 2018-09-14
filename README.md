@@ -1,7 +1,7 @@
 # gov90-monte-carlo
 
-Repository to model DF-26 IRBMs and CJ-20 ALCMs savlos directed toward Andersen AFB at Guam.
-Developed for final paper in course on conventional military analysis 
+Repository to model DF-26 IRBMs and CJ-20 ALCMs savlos directed toward Andersen AFB at Guam.  
+Developed for final paper in course on conventional military analysis  
 GOV 85, Military Statecraft, London School of Economics, Michaelmas Term 2017
 
 ***
