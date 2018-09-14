@@ -41,7 +41,7 @@ Some short notes:
 2. Missiles are sent toward airfield parking spots with F-22 fighter aircraft
 3. Missiles and subminitions fall around parking spots with normal distribution
 4. Aircraft destruction is determined by subminition blast radius
-5. Subminition destruction can 'overlap' allowing one missile to hit several aircraft
+5. Subminition destruction can 'overlap, allowing one missile to hit several aircraft
 
 ## Sample plots
 
