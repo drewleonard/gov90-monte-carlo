@@ -36,7 +36,7 @@ Accordingly, the models in this repository determine outcomes of DF-26 IRBM and 
 
 The models in this repo are Monte Carlo variants that simulate large numbers of random salvos sent toward aircraft parked at Andersen AFB. Further details on the modeling process are included in the paper.
 
-In short:
+Some short notes:
 1. Each model simulates outcomes for 0 .. 120 missiles 'leaked'
 2. Missiles are sent toward airfield parking spots with F-22 fighter aircraft
 3. Missiles and subminitions fall around parking spots with normal distribution
