@@ -1,6 +1,6 @@
 # gov90-monte-carlo
 
-**Government 090*  
+**Government 090** 
 **Military Statecraft**  
 **London School of Economics**  
 **Michaelmas Term 2017**  
