@@ -1,8 +1,8 @@
 # gov90-monte-carlo
 
-Repository to model DF-26 IRBMs and CJ-20 ALCMs savlos directed toward Andersen AFB at Guam.  
-Developed for final paper in course on conventional military analysis  
-GOV 85, Military Statecraft, London School of Economics, Michaelmas Term 2017
+* Repository to model DF-26 IRBMs and CJ-20 ALCMs savlos directed toward Andersen AFB at Guam.  
+* Developed for final paper in course on conventional military analysis  
+* GOV 85, Military Statecraft, London School of Economics, Michaelmas Term 2017
 
 ***
 
@@ -16,7 +16,7 @@ GOV 85, Military Statecraft, London School of Economics, Michaelmas Term 2017
 	* Input airfield parking spot data (lat, lon coordinates)
 * `sample_plots/` contains:
 	* Plots used in paper (from `../<alcm, irbm>/plots/`)
-* `Andersen_AFB.pdf`: paper
+* `Andersen_AFB.pdf`: final paper submission (68 pp.)
 
 
 ***
