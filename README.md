@@ -13,7 +13,7 @@ Developed for seminar paper for course on military statecraft.
 
 **Implementation**
 * `alcm/` and `irbm/` each contain:
-	* `baseline/`: Baseline `.py` modelling files for missile
+	* `baseline/`: Baseline `.py` modeling files for missile
 	* `plots/`: Pickled `.p` model results and `.py` plotting files
 	* `runs/`: Non-baseline `.py` modeling files for missile
 * `data/` contains:
