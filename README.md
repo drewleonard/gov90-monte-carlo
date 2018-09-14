@@ -30,7 +30,7 @@ This seminar paper models China's abilities to send missile salvos toward the US
 
 China's new conventional intermediate range ballistic missiles (IRBMs) and air launded cruise missiles (ALCMs) are game-changing components of the military balance between China and the United States. Analysts predict that the A2/AD IRBMs and ALCMs can: first, pin the the USAF's aircraft on the ground prior to battle; and second, destroy sufficiently large numbers of aircraft to win battles quickly. This has been a key piece of China's military doctrine since 1990, and its upgraded missile inventory provides the necessary capabilities.
 
-Accordingly, the models in his repository determine outcomes of DF-26 IRBM and CJ-20 ALCM salvos sent toward Andersen AFB, measured by number of aircraft destroyed relative to number of missiles leaked. Plots below detail the outcomes, and more information on the paper is available upon request.
+Accordingly, the models in this repository determine outcomes of DF-26 IRBM and CJ-20 ALCM salvos sent toward Andersen AFB, measured by number of aircraft destroyed relative to number of missiles leaked. Plots below detail the outcomes, and more information on the paper is available upon request.
 
 ## About the models
 
