@@ -7,4 +7,4 @@ Files that model DF-26 s and CJ-20 ALCMs (each equipped with submunition warhead
 ![Plots 3 and 4](sample_plots/plot_3_4.png)
 ![Plots 5 and 6](sample_plots/plot_5_6.png)
 ![Plots 7 and 8](sample_plots/plot_7_8.png)
-![Plot 9](sample_plots/plot_9_small.png)
+![Plot 9](sample_plots/plot_9.png)
