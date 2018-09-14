@@ -1,10 +1,9 @@
 # gov90-monte-carlo
 
-*Produced for:*
-**Government 090*
-**Military Statecraft**
-**London School of Economics**
-**Michaelmas Term 2017**
+**Government 090*  
+**Military Statecraft**  
+**London School of Economics**  
+**Michaelmas Term 2017**  
 
 Repository to model DF-26 IRBMs and CJ-20 ALCMs savlos directed toward USAF Andersen AFB at Guam.  
 Developed for seminar paper for course on military statecraft.
