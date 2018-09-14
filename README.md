@@ -4,8 +4,6 @@
 * Developed for final paper in course on conventional military analysis  
 * GOV 90, Military Statecraft, London School of Economics, Michaelmas Term 2017
 
-***
-
 ## About the repository
 
 * `alcm/` and `irbm/` each contain:
@@ -15,10 +13,8 @@
 * `data/` contains:
 	* Input airfield parking spot data (lat, lon coordinates)
 * `sample_plots/` contains:
-	* Plots used in paper (from `../<alcm, irbm>/plots/`)
+	* Plots used in paper (from `<alcm, irbm>/plots/`)
 * `Andersen_AFB.pdf`: final paper submission (68 pp.)
-
-***
 
 ## About the paper
 
@@ -39,7 +35,6 @@ In short:
 4. Aircraft destruction is determined by subminition blast radius
 5. Subminition destruction can 'overlap' allowing one missile to hit several aircraft
 
-***
 ## Sample plots
 
 ![Plots 1 and 2](sample_plots/plot_1_2.png)
