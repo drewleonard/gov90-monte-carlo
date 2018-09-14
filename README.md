@@ -11,12 +11,15 @@ Developed for seminar paper for course on military statecraft.
 
 ## About the repository
 
+**Implementation**
 * `alcm/` and `irbm/` each contain:
 	* `baseline/`: Baseline `.py` modelling files for missile
 	* `plots/`: Pickled `.p` model results and `.py` plotting files
 	* `runs/`: Non-baseline `.py` modeling files for missile
 * `data/` contains:
 	* Input airfield parking spot data (lat, lon coordinates)
+	
+**Output**
 * `sample_plots/` contains:
 	* Plots used in paper (from `<alcm, irbm>/plots/`)
 * `Andersen_AFB.pdf`: seminar paper submission (68 pp.)
